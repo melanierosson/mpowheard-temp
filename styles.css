@@ -7,7 +7,12 @@ h1 {
 h1, h2 {
     font-weight:700;
 }
+div.under-construction {
+    background-image: linear-gradient(45deg, #ffee00 25%, #b7b6b8 25%, #b7b6b8 50%, #ffee00 50%, #ffee00 75%, #b7b6b8 75%, #b7b6b8 100%);
+    background-size: 56.57px 56.57px;
+}
 p.lead {
-    font-weight:500;
+    font-weight:700;
     margin-top:10vh;
+    padding:20px;
 }

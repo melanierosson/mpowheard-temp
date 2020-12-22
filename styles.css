@@ -10,7 +10,7 @@ h1, h2 {
 div.under-construction {
     margin-top:10vh;
     margin-left:-15px;
-    background-image: linear-gradient(45deg, #ffee00 25%, #b7b6b8 25%, #b7b6b8 50%, #ffee00 50%, #ffee00 75%, #b7b6b8 75%, #b7b6b8 100%);
+    background-image: linear-gradient(45deg, #FBFF04 25%, #FFF 25%, #FFF 50%, #FBFF04 50%, #FBFF04 75%, #FFF 75%, #FFF 100%);
     background-size: 56.57px 56.57px;
 }
 @media screen and (max-width:500px) {
@@ -23,4 +23,38 @@ p.lead {
     font-weight:700;
     margin:0;
     padding:20px;
+}
+div.social h3 {
+    margin-top:100px;
+}
+div.social p {
+    font-size:3rem;
+}
+div.social p a {
+    padding:10px;
+}
+div.social p a:hover {
+    text-decoration:none;
+}
+.fa-instagram {
+    color:#B006FB;
+}
+.fa-twitter {
+    color:#00E2FF;
+}
+.fa-twitter:hover,
+.fa-instagram:hover {
+    color:#FF0093;
+}
+div.donate h3 {
+    margin-top:50px;
+}
+div.donate p {
+    font-size:1.5rem;
+}
+div.donate p a {
+    color:#2FFF37;
+}
+div.donate p a:hover {
+    color:#FF4500;
 }

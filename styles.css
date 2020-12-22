@@ -18,6 +18,9 @@ div.under-construction {
         width:100vw;
         overflow:hidden;
     }
+    h1 {
+        margin-top:50px;
+    }
 }
 p.lead {
     font-weight:700;

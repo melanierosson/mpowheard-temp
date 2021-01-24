@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 } 
 h1 {
-    margin-top:6vh;
+    margin-top:4vh;
 }
 h1, h2 {
     font-weight:700;
@@ -28,7 +28,7 @@ p.lead {
     padding:20px;
 }
 div.social h3 {
-    margin-top:60px;
+    margin-top:40px;
 }
 div.social p {
     font-size:3rem;
@@ -51,11 +51,12 @@ div.social p a:hover {
 }
 div.donate p {
     font-size:1.5rem;
+    margin:10px;
 }
 
 div.donate {
     margin-top:20px;
-    padding-top:15px;
+    padding:15px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -63,11 +64,25 @@ div.donate {
     align-items:center;
     border:5px solid #2FFF37;
 }
+
 div.donate p a {
-    color:#FF0093;
+    /* color:#0644FB; */
+    color:#FFF;
+    letter-spacing:0.15rem;
+    /* background-color:rgba(255,69,0,0.3); */
+    background-color:#FF4500;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:1.25rem;
+    border:3px solid #FBFF04;
 }
 div.donate p a:hover {
-    color:#FF4500;
+    /* color:#FF4500; */
+    color:#0644FB;
+    text-decoration:none;
+    /* background-color:rgba(251,255,4,0.3); */
+    background-color:#FBFF04;
+    border:3px solid #FBFF04;
 }
 div.contact {
     margin-top:20px;
@@ -75,7 +90,7 @@ div.contact {
     font-size:1.5rem;
 }
 div.contact p a {
-    color:#0644FB;
+    color:#FF0093;
 }
 div.contact p a:hover {
     color:#FF4500;

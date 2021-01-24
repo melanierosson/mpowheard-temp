@@ -83,10 +83,8 @@ div.donate p a {
     margin-left:0.625rem;
 }
 div.donate p a:hover {
-    /* color:#FF4500; */
     color:#0644FB;
     text-decoration:none;
-    /* background-color:rgba(251,255,4,0.3); */
     background-color:#FBFF04;
     border:0.188rem solid #FBFF04;
 }
@@ -97,6 +95,12 @@ div.donate p a#merch {
     padding:0.625rem 1.25rem;
     border-radius:1.875rem;
     font-size:1.25rem;
+    border:0.188rem solid #FBFF04;
+}
+div.donate p a#merch:hover {
+    color:#0644FB;
+    text-decoration:none;
+    background-color:#FBFF04;
     border:0.188rem solid #FBFF04;
 }
 div.contact {

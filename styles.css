@@ -47,7 +47,7 @@ div.social p a:hover {
 }
 .fa-twitter:hover,
 .fa-instagram:hover {
-    color:#FF4500;
+    color:#FF0093;
 }
 div.donate p {
     font-size:1.5rem;
@@ -90,10 +90,10 @@ div.contact {
     font-size:1.5rem;
 }
 div.contact p a {
-    color:#FF0093;
+    color:#0644FB;
 }
 div.contact p a:hover {
-    color:#FF4500;
+    color:#FF0093;
 }
 div.contact p a i {
     font-size:3rem;

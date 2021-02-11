@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin-left:0;
 } 
 h1 {
     margin-top:4vh;
@@ -62,6 +63,7 @@ div.donate p {
 
 div.donate {
     margin-top:1.25rem;
+    margin-left:0rem;
     padding:0.938rem;
     display:flex;
     flex-direction:column;
@@ -116,4 +118,8 @@ div.contact p a:hover {
 }
 div.contact p a i {
     font-size:3rem;
+}
+div.contact p.address {
+    margin-top:-0.75rem;
+    font-size:1rem;
 }

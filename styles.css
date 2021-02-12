@@ -109,6 +109,8 @@ div.contact {
     margin-top:1.25rem;
     padding-top:0.938rem;
     font-size:1.5rem;
+    /* remove if donate area is visible again */
+    border:0.313rem solid #2FFF37;
 }
 div.contact p a {
     color:#0644FB;

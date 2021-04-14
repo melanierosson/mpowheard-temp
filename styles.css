@@ -116,12 +116,16 @@ div.contact p a {
     color:#0644FB;
 }
 div.contact p a:hover {
-    color:#FF0093;
+    color:#FF4500;
 }
 div.contact p a i {
     font-size:3rem;
 }
-div.contact p.address {
-    margin-top:-0.75rem;
+div.contact p a.address {
+    margin-top:-2rem;
     font-size:1rem;
+    color:#FF0093;
+}
+div.contact p a.address:hover {
+    color:#FF4500;
 }
